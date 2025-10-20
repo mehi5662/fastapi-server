@@ -53,18 +53,9 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Todo Application",
-    description=(
-        "A simple and efficient Todo management API built with FastAPI. "
-        "This API allows users to create, retrieve, update, and delete tasks. "
-        "It is designed for task tracking and productivity improvement."
-    ),
+    description=( ),
     version="1.0.0",
     terms_of_service="https://example.com/terms/",
-    contact={
-        "name": "Ali Bigdeli",
-        "url": "https://thealibigdeli.ir",
-        "email": "bigdeli.ali3@gmail.com",
-    },
     license_info={
         "name": "MIT License",
         "url": "https://opensource.org/licenses/MIT",

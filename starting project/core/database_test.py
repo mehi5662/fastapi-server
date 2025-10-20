@@ -140,7 +140,7 @@ Base.metadata.create_all(engine)
 
 session = SessionLocal()
 
-user = session.query(User).filter_by(username="alibigdeli").one_or_none()
+user = session.query(User).filter_by(username="mehrdad").one_or_none()
 course = session.query(Course).filter_by(title="Python").one()
 
 print(user.courses)

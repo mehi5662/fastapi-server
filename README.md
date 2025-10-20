@@ -1,10 +1,4 @@
-<p align="center">
-  <img src="./docs/fastapi-course.jpg" width=700>
-  <h1 align="center">
-    FastAPI Advanced Tutorial Project
-  </h1>
-<p align="center">The full course can be found <a href="https://thealibigdeli.ir/courses"> https://thealibigdeli.ir</a>.</p>
-</p>
+
 
 # Guideline
 - [Guideline](#guideline)
