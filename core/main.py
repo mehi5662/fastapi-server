@@ -13,6 +13,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 import httpx
 from core.config import settings
 import sentry_sdk
+from 
 
 sentry_sdk.init(
     dsn=settings.SENTRY_DSN,
